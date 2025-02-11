@@ -1,59 +1,25 @@
-# AngularSchool
+🎓 Sistema de Gestão Escolar
+Bem-vindo ao Sistema de Gestão Escolar, uma aplicação web desenvolvida em Angular para facilitar o gerenciamento de alunos, professores e turmas. Este projeto foi criado como parte de um teste técnico para avaliar habilidades em desenvolvimento front-end com Angular.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+✨ Funcionalidades
 
-## Development server
+📋 Cadastro de Alunos: Permite adicionar, editar, visualizar e excluir registros de alunos, incluindo informações como nome completo, data de nascimento, matrícula, série e turma.
 
-To start a local development server, run:
+👩‍🏫 Cadastro de Professores: Facilita a gestão de professores, permitindo operações de CRUD (Create, Read, Update, Delete) com campos como nome completo, data de nascimento, disciplinas lecionadas e código do professor.
 
-```bash
-ng serve
-```
+🏫 Gerenciamento de Turmas: Possibilita a criação e administração de turmas, associando alunos e designando um professor responsável.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🔒 Autenticação: Implementa um sistema de login com diferentes níveis de acesso: Administrador (acesso total) e Usuário (acesso limitado).
 
-## Code scaffolding
+🛠️ Tecnologias Utilizadas
+Frontend: Angular com Angular Material para uma interface amigável e responsiva.
+Backend: API RESTful desenvolvida em Node.js com Express.
+Banco de Dados: MongoDB para armazenamento de dados.
+Autenticação: JSON Web Tokens (JWT) para gerenciamento de sessões de usuário.
+gi
+🚀 Requisitos de Instalação
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Node.js (versão 14 ou superior)
+Angular CLI
+MongoDB
